@@ -75,7 +75,7 @@ class ShimmerPlaceHolder extends PureComponent {
         style={[
           styles.lineComponent, {
             width: this.WIDTH_LINE,
-            left: this.positionVerticalLine,
+            transform:[{translateX: this.positionVerticalLine}]
           }
       ]}>
         <LinearGradient
