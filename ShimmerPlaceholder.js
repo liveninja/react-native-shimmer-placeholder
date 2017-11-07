@@ -42,7 +42,8 @@ class ShimmerPlaceHolder extends PureComponent {
     return Animated.timing(this.positionVerticalLine, { // The value to drive
       toValue: this.end, // Target
       duration: this.props.duration, // Configuration
-      isInteraction: false
+        isInteraction: false,
+        useNativeDriver: true,
     })
   }
   runAnimatedAuto() {
@@ -51,7 +52,8 @@ class ShimmerPlaceHolder extends PureComponent {
       toValue: this.end, // Target
       duration: this.props.duration, // Configuration
       easing: Easing.linear,
-      isInteraction: false
+      isInteraction: false,
+        useNativeDriver: true,
     }).start((event) => {
       if (!this.state.isDisplayChildComponent) {
         this.runAnimatedAuto()
