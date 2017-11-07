@@ -1,6 +1,7 @@
 /* @flow */
 
 import React, {PureComponent} from 'react';
+import PropTypes from 'prop-types'
 import {
   View,
   StyleSheet,
@@ -123,13 +124,13 @@ ShimmerPlaceHolder.defaultProps = {
   autoRun: false,
 };
 ShimmerPlaceHolder.propTypes = {
-  width: React.PropTypes.number,
-  height: React.PropTypes.number,
-  widthLine: React.PropTypes.number,
-  duration: React.PropTypes.number,
-  colorShimmer: React.PropTypes.string,
-  reverse: React.PropTypes.bool,
-  autoRun: React.PropTypes.bool,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  widthLine: PropTypes.number,
+  duration: PropTypes.number,
+  colorShimmer: PropTypes.string,
+  reverse: PropTypes.bool,
+  autoRun: PropTypes.bool,
 };
 export default ShimmerPlaceHolder;
 const styles = StyleSheet.create({

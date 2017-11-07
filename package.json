@@ -1,6 +1,6 @@
 {
   "name": "react-native-shimmer-placeholder",
-  "version": "1.0.10",
+  "version": "1.0.17",
   "description": "",
   "main": "ShimmerPlaceholder.js",
   "directories": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/tomzaku/react-native-shimmer-placeholder#readme",
   "dependencies": {
-    "react-native-linear-gradient": "^2.0.0"
+    "react-native-linear-gradient": "2.2.0",
+    "prop-types": "15.6.0"
   }
 }
