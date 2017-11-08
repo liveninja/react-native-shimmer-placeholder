@@ -121,7 +121,7 @@ ShimmerPlaceHolder.defaultProps = {
   height: 15,
   widthLine: 90,
   duration: 300,
-  colorShimmer: '#e2e2e2',
+  colorShimmer: '#ddd',
   reverse: false,
   autoRun: false,
 };
